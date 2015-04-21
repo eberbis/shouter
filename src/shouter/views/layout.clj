@@ -12,7 +12,7 @@
     (h/include-css "/stylesheets/base.css"
     		   "/stylesheets/skeleton.css"
                    "/stylesheets/screen.css")
-    (h/include-css "http://fonts.googleapis.com/css?family=Sigmar+One&v1")]
+    (h/include-css "http://fonts.googleapis.com/css?family=Tangerine")]
    [:body
     [:div {:id "header"}
      [:h1 {:class "container"} "SHOUTER"]]

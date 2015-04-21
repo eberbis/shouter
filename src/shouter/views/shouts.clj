@@ -8,7 +8,7 @@
    (form/form-to [:post "/"]
    		 (form/label "shout" "What do you want to SHOUT?")
 		 (form/text-area "shout")
-                 (form/submit-button "SHOUT!"))])
+                 (form/submit-button "SHOUT IT!"))])
 
 (defn display-shouts [shouts]
   [:div {:class "shouts sixteen columns alpha omega"}
